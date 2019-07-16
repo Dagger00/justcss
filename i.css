@@ -13,18 +13,19 @@ body {
 }
 
 .kek {
+  margin: 10px;
   width: 30px;
   height: 30px;
   background-color: #000;
-  animation: kek 2s infinite ease-in-out;
+  animation: kek 1s infinite ease-in-out;
 }
 
 @keyframes kek {
-  from {
-
-  }
-
   to {
     transform: rotateZ(180deg);
   }
+}
+.long {
+  animation: kek 1s infinite ease-in-out;
+  animation-direction: reverse;
 }
