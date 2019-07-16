@@ -16,6 +16,7 @@ body {
 .mini-container {
   width: 100px;
   animation: pek 2s infinite linear;
+  animation-direction: reverse;
 }
 
 .row {
