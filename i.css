@@ -5,6 +5,7 @@ body {
   padding: 0;
 }
 .container {
+  position: relative;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -14,8 +15,21 @@ body {
 }
 
 .mini-container {
+  position: absolute;
   width: 100px;
   animation: pek 2s infinite linear;
+  animation-direction: reverse;
+}
+
+.mini-container2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  animation: pek 4s infinite linear;
+}
+
+.mini-container2 .kek{
+  margin: 60px;
   animation-direction: reverse;
 }
 
