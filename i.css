@@ -46,6 +46,24 @@ body {
 }
 
 @keyframes kek {
+  15% {
+    background-color: green;
+  }
+  35% {
+    background-color: red;
+  }
+  55% {
+    background-color: blue;
+  }
+  75% {
+    background-color: yellow;
+  }
+  95% {
+    background-color: pink;
+  }
+  5% {
+    background-color: #9d00ff;
+  }
   to {
     transform: rotateZ(180deg);
   }
