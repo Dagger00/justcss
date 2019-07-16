@@ -8,8 +8,18 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.mini-container {
+  width: 100px;
+  animation: pek 2s infinite linear;
+}
+
+.row {
+  display: flex;
 }
 
 .kek {
@@ -17,7 +27,7 @@ body {
   width: 30px;
   height: 30px;
   background-color: #000;
-  animation: kek 1s infinite ease-in-out;
+  animation: kek 1s infinite linear;
 }
 
 @keyframes kek {
@@ -25,7 +35,9 @@ body {
     transform: rotateZ(180deg);
   }
 }
-.long {
-  animation: kek 1s infinite ease-in-out;
-  animation-direction: reverse;
+
+@keyframes pek {
+  to {
+    transform: rotateZ(180deg);
+  }
 }
