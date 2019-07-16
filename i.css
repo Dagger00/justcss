@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kek {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  animation: kek 2s infinite ease-in-out;
+}
+
+@keyframes kek {
+  from {
+
+  }
+
+  to {
+    transform: rotateZ(180deg);
+  }
+}
